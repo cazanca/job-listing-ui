@@ -3,6 +3,10 @@
         display: flex;
         align-items: center;
         color: lighten($blue, 10%);
+
+        &:hover {
+            color: lighten($blue, 20%);
+        }
     }
 
     .grid {
